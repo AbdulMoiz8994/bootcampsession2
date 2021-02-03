@@ -37,5 +37,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Installing Surge
         run: npm install --global surge
+
       - name: deploying on surge
-        run: surge ./build redundant-fowl.surge.sh --token ${{ secrets.SURGE_TOKEN16 }}  
+        run: surge ./build ethereal-rod.surge.sh --token ${{ secrets.SURGE_TOKEN16 }}  
