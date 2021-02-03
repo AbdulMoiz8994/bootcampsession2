@@ -32,7 +32,7 @@ jobs:
       - name: Installing yarn for github actions
         uses: Borales/actions-yarn@v2.1.0
         with:
-          cmd: install  #npm install/ yarn install 
+          cmd: install  #npm install/ yarn install it install all react application's dependencies because node modules file does not go with push on github
     
       - name: creating build
         run: yarn build
